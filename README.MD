@@ -49,7 +49,7 @@
 	Breezy and Dry: 26
 	Rain: 27
 
-#### 3. Only the last 33 rows (hours) of the dataframe are used for training.
+#### 3. Only 66% of the last 33 rows (hours) of the dataframe are used for training.
 
 	Close the plot window to continue...
 
@@ -64,7 +64,7 @@
 	F1 Score: 100.0 %
 
 ### Expected forecast
-- This dataframe used for example prediction was taken a few hours (rows) before the last 33 hours (rows) of the dataframe used for training...
+- Dataframe used for example prediction
 
 
 	    df  =  pd.DataFrame(
